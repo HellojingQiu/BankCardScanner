@@ -13,6 +13,12 @@
 		283AB0311AEF21C7000E314D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283AB0301AEF21C7000E314D /* Images.xcassets */; };
 		283AB0341AEF21C7000E314D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283AB0321AEF21C7000E314D /* LaunchScreen.xib */; };
 		283AB0401AEF21C7000E314D /* BankCardScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283AB03F1AEF21C7000E314D /* BankCardScannerTests.swift */; };
+		283AB0551AEF227E000E314D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283AB0541AEF227E000E314D /* AVFoundation.framework */; };
+		283AB0571AEF228D000E314D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283AB0561AEF228D000E314D /* AudioToolbox.framework */; };
+		283AB05B1AEF229A000E314D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283AB05A1AEF229A000E314D /* MobileCoreServices.framework */; };
+		283AB06A1AEF2FFD000E314D /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 283AB0691AEF2FFD000E314D /* libCardIO.a */; };
+		283AB06C1AEF3079000E314D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283AB06B1AEF3079000E314D /* CoreMedia.framework */; };
+		283AB06E1AEF36C5000E314D /* BankCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 283AB06D1AEF36C5000E314D /* BankCard.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,21 @@
 		283AB0391AEF21C7000E314D /* BankCardScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankCardScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		283AB03E1AEF21C7000E314D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		283AB03F1AEF21C7000E314D /* BankCardScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardScannerTests.swift; sourceTree = "<group>"; };
+		283AB0541AEF227E000E314D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		283AB0561AEF228D000E314D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		283AB05A1AEF229A000E314D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		283AB05C1AEF2314000E314D /* BankCardScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankCardScanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		283AB0611AEF2FFD000E314D /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		283AB0621AEF2FFD000E314D /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		283AB0631AEF2FFD000E314D /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		283AB0641AEF2FFD000E314D /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		283AB0651AEF2FFD000E314D /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		283AB0661AEF2FFD000E314D /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		283AB0671AEF2FFD000E314D /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		283AB0681AEF2FFD000E314D /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		283AB0691AEF2FFD000E314D /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		283AB06B1AEF3079000E314D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		283AB06D1AEF36C5000E314D /* BankCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BankCard.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283AB06C1AEF3079000E314D /* CoreMedia.framework in Frameworks */,
+				283AB05B1AEF229A000E314D /* MobileCoreServices.framework in Frameworks */,
+				283AB06A1AEF2FFD000E314D /* libCardIO.a in Frameworks */,
+				283AB0571AEF228D000E314D /* AudioToolbox.framework in Frameworks */,
+				283AB0551AEF227E000E314D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +85,9 @@
 		283AB01B1AEF21C7000E314D = {
 			isa = PBXGroup;
 			children = (
+				283AB06D1AEF36C5000E314D /* BankCard.jpg */,
+				283AB0601AEF2FFD000E314D /* CardIO */,
+				283AB05F1AEF232A000E314D /* Frameworks */,
 				283AB0261AEF21C7000E314D /* BankCardScanner */,
 				283AB03C1AEF21C7000E314D /* BankCardScannerTests */,
 				283AB0251AEF21C7000E314D /* Products */,
@@ -83,6 +112,7 @@
 				283AB0301AEF21C7000E314D /* Images.xcassets */,
 				283AB0321AEF21C7000E314D /* LaunchScreen.xib */,
 				283AB0271AEF21C7000E314D /* Supporting Files */,
+				283AB05C1AEF2314000E314D /* BankCardScanner-Bridging-Header.h */,
 			);
 			path = BankCardScanner;
 			sourceTree = "<group>";
@@ -110,6 +140,33 @@
 				283AB03E1AEF21C7000E314D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		283AB05F1AEF232A000E314D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				283AB06B1AEF3079000E314D /* CoreMedia.framework */,
+				283AB05A1AEF229A000E314D /* MobileCoreServices.framework */,
+				283AB0561AEF228D000E314D /* AudioToolbox.framework */,
+				283AB0541AEF227E000E314D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		283AB0601AEF2FFD000E314D /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				283AB0611AEF2FFD000E314D /* CardIO.h */,
+				283AB0621AEF2FFD000E314D /* CardIOCreditCardInfo.h */,
+				283AB0631AEF2FFD000E314D /* CardIODetectionMode.h */,
+				283AB0641AEF2FFD000E314D /* CardIOPaymentViewController.h */,
+				283AB0651AEF2FFD000E314D /* CardIOPaymentViewControllerDelegate.h */,
+				283AB0661AEF2FFD000E314D /* CardIOUtilities.h */,
+				283AB0671AEF2FFD000E314D /* CardIOView.h */,
+				283AB0681AEF2FFD000E314D /* CardIOViewDelegate.h */,
+				283AB0691AEF2FFD000E314D /* libCardIO.a */,
+			);
+			path = CardIO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +252,7 @@
 				283AB02F1AEF21C7000E314D /* Main.storyboard in Resources */,
 				283AB0341AEF21C7000E314D /* LaunchScreen.xib in Resources */,
 				283AB0311AEF21C7000E314D /* Images.xcassets in Resources */,
+				283AB06E1AEF36C5000E314D /* BankCard.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +400,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BankCardScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BankCardScanner/BankCardScanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +418,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BankCardScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BankCardScanner/BankCardScanner-Bridging-Header.h";
 			};
 			name = Release;
 		};
